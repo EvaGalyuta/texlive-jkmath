@@ -18,7 +18,9 @@ Inspired by the physicspackage on CTAN, the package defines some simple macros f
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/jkmath
-%doc %{_texmfdistdir}/doc/latex/jkmath
+%doc %{_texmfdistdir}/doc/latex/jkmath/jkmath.pdf
+%doc %{_texmfdistdir}/doc/latex/jkmath/jkmath.tex
+%doc %{_texmfdistdir}/doc/latex/jkmath/README.md
 
 #-----------------------------------------------------------------------
 %prep
