@@ -1,7 +1,7 @@
-Name:		jkmath
-Version:	0.1
+Name:		texlive-jkmath
+Version:	0.2
 Release:	1
-Summary:	Inspired by the physicspackage on CTAN, the package defines some simple macros for mathematical notation which make the code more readable and/or allow flexibility in typesetting material.
+Summary:	Inspired by the physicspackage on CTAN, the package defines some simple macros for mathematical notation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jkmath
 License:	The LATEX Project Public License
@@ -13,14 +13,12 @@ Requires(pre): texlive-tlpkg
 Requires(post):texlive-kpathsea	
 
 %description
-Inspired by the physicspackage on CTAN, the package defines some simple macros for mathematical notation which make the code more readable and/or allow flexibility in typesetting material.
+Inspired by the physicspackage on CTAN, the package defines some simple macros for mathematical notation
 
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/jkmath
-%doc %{_texmfdistdir}/doc/latex/jkmath/jkmath.pdf
-%doc %{_texmfdistdir}/doc/latex/jkmath/jkmath.tex
-%doc %{_texmfdistdir}/doc/latex/jkmath/README.md
+%doc %{_texmfdistdir}/doc/latex/jkmath
 
 #-----------------------------------------------------------------------
 %prep
